@@ -1,0 +1,341 @@
+/*
+Navicat MySQL Data Transfer
+
+Source Server         : localhost
+Source Server Version : 50721
+Source Host           : localhost:3306
+Source Database       : newdata_hainan
+
+Target Server Type    : MYSQL
+Target Server Version : 50721
+File Encoding         : 65001
+
+Date: 2019-04-09 20:11:52
+*/
+
+SET FOREIGN_KEY_CHECKS=0;
+
+-- ----------------------------
+-- Table structure for meituan_dadonghai
+-- ----------------------------
+DROP TABLE IF EXISTS `meituan_dadonghai`;
+CREATE TABLE `meituan_dadonghai` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `username` varchar(255) DEFAULT NULL,
+  `userid` varchar(255) DEFAULT NULL,
+  `userurl` varchar(255) DEFAULT NULL,
+  `comment` longtext,
+  `commenttime` datetime DEFAULT NULL,
+  `picurls` longtext,
+  `poiid` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=306 DEFAULT CHARSET=utf8mb4;
+
+-- ----------------------------
+-- Records of meituan_dadonghai
+-- ----------------------------
+INSERT INTO `meituan_dadonghai` VALUES ('1', '花花世界的代价', '113801698', '', '', '2018-09-28 18:00:55', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('2', '匿名用户', '0', 'https://www.dpfile.com/ugc/user/anonymous.png', '除了潜水还不错，其他的服务不好，并不是不好玩，服务，在开始玩前很热情，说玩完了有饭吃，玩完之后，我问他在哪里吃饭，有一个工作人员说，你没饭吃的，说了些五个字好气，然后一直说没有饭吃，你没饭吃，没有就没有，早说就好，之前就跟我说一起集合吃饭，说的难听死了，来的时候这么热情，玩完了之后对我那个态度，你们想不到的', '2018-09-24 17:49:31', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('3', 'jinha夏', '39579636', 'https://img.meituan.net/avatar/71260c7bb24f5fae293aa9c923f05ce286185.jpg', '大東海人沒有那麼多 沙子的沙質也OK 性價比比較好 我和弟弟一起去玩的 還不錯', '2018-09-06 13:09:09', '-1320535557:http://p0.meituan.net/shaitu/18f609e8ba9bc11008c47aadf265bfaf892650.jpg;\n-1320535556:http://p0.meituan.net/shaitu/b3df9db3a5f5d7b2204477a95587980c649945.jpg;\n-1320535555:http://p0.meituan.net/shaitu/7659885f47046ccf56768324e76eb3e8827071.jpg;\n-1320633648:http://p0.meituan.net/shaitu/6f5b71f6f2dad44b090003771eada6e41157893.jpg;\n-1320633647:http://p0.meituan.net/shaitu/5c13e73f782627178e48aaa855968d5a1684540.jpg;\n-1320633646:http://p0.meituan.net/shaitu/f2b62886a1f69954926de007009d46991759289.jpg;\n-1320535554:http://p0.meituan.net/shaitu/ba182a07318cc61618844e6c517950e11289888.jpg;\n-1320633645:http://p0.meituan.net/shaitu/7183f641df76de99627c8e046b3aec491893047.jpg;\n', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('4', 'MvE607009673', '768048313', '', '', '2018-04-17 15:40:06', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('5', '闹.钟', '278495807', '', '服务态度，极其恶略，总之没有下回了', '2018-03-10 14:06:47', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('6', '打个酱油而已i', '172824520', 'https://img.meituan.net/avatar/e5d0a2d79b61361e4ff4d90708e4c5df66698.jpg', '除了价格便宜，其他潜水完全没有可以考虑的～客服给个电话，打了7.8个都打不进去，直接去别的家玩的潜水，就是在那岸边被潜水员扶着玩，完全没啥意思～没试过的还是可以试试，我这个评分完全是对他们家客服打不进电话而打的～并没有什么意思～', '2018-02-20 23:34:14', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('7', '匿名用户', '0', 'https://www.dpfile.com/ugc/user/anonymous.png', '第一等了三个小时，玩就十几二十分钟。第二因为等的时间过长 太阳都没了 整个人在冰冷的海水里都是瑟瑟发抖，冷的像个***-_-。第三拍照服务半欺骗性600两个人。说只有这一个套餐 技术差 拍的照片没有几张能看的 第四', '2018-02-16 22:46:45', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('8', 'VYs993215904', '63117580', '', '', '2018-01-30 09:20:55', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('9', 'VYs993215904', '63117580', '', '', '2018-01-30 09:20:48', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('10', 'Suzanaaa', '656193787', 'https://img.meituan.net/avatar/f524c59f742c2d2f36501d03ce4059d3123646.jpg', '值得一玩', '2017-12-25 22:34:29', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('11', '匿名用户', '0', 'https://www.dpfile.com/ugc/user/anonymous.png', '酒店位置比较好，就在港湾城，就是大菠萝那，楼下就是商场，可以逛也有吃的，酒店自己也有餐厅。酒店好像接了俄罗斯的团，外国人挺多的。床很舒服。只是我当时预约的是大床，结果到了没有大床了，给我用双床拼的。迷你吧很喜欢，还有红酒杯。窗外基本看不到海……沙滩上有酒店专用的躺椅。酒店步行到沙滩估计也就八分钟左右。早餐挺丰富的。', '2017-11-03 22:41:37', '-1859549955:http://p0.meituan.net/shaitu/5e1c79d50c5394d9e540c641958fc070337333.jpg;\n-1859248920:http://p0.meituan.net/shaitu/9337a03a00c2166a9efdbd0e585ed408177357.jpg;\n-1859520415:http://p0.meituan.net/shaitu/bc250f010a8cf499229cc3f09185deae286011.jpg;\n', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('12', 'tian19941126', '98470777', 'https://img.meituan.net/avatar/4367cd75935cf302a04cd4ecf3ae74f028024.jpg', '很赞，装修和服务都挺好的，下次还来', '2017-09-10 18:37:37', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('13', 'kUG296335866', '370826479', 'https://img.meituan.net/avatar/34748febf4acebc5e9dcb88c7e9c035a53930.jpg', '700块住两个晚上，还是非常不错的', '2017-08-28 01:00:06', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('14', '箐楓', '126595156', 'https://img.meituan.net/avatar/e4195c703a7d4b81014fdcbdf93c86a929183.jpg', '没玩到，团游不能买，退款了，退款速度还行', '2017-07-25 16:45:53', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('15', '匿名用户', '0', 'https://www.dpfile.com/ugc/user/anonymous.png', '', '2017-07-16 03:59:58', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('16', '匿名用户', '0', 'https://www.dpfile.com/ugc/user/anonymous.png', '', '2017-07-16 03:59:34', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('17', 'Jakeqijie', '36592077', '', '时间短，说好30分钟，结果就不到20分钟，还要走路过去，都没车接送', '2017-06-04 20:26:28', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('18', '匿名用户', '0', 'https://www.dpfile.com/ugc/user/anonymous.png', '非常满意，小孩玩得很开心。', '2017-05-29 22:37:28', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('19', 'VxV752188015', '202794491', '', '环境还可以，服务态度一般般，潜水完还把我送回目的地', '2017-05-10 13:23:29', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('20', 'liuyating0609', '93836653', 'https://img.meituan.net/avatar/f782ed94aa444213c1e9402d80340bf7122977.jpg', '水不怎么干净，能见度很低，看到鱼儿在你身边很开心！价格不算贵～教练很负责！总体还算满意！', '2017-05-06 17:52:33', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('21', 'EmR477221933', '779091185', '', '', '2017-05-02 13:03:52', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('22', 'oIQ257859773', '99637320', '', '', '2017-04-30 17:59:43', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('23', 'OvX216755951', '311344367', '', '', '2017-04-27 02:37:13', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('24', 'nAc465219382', '222131281', '', '', '2017-04-08 23:54:08', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('25', '陈本邓', '87034874', '', '', '2017-04-02 08:49:22', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('26', 'MAc877713380', '783307982', '', '', '2017-03-27 18:01:15', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('27', 'rik703877976', '389140609', '', '', '2017-03-22 20:10:43', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('28', 'Robot.静熙', '199495454', 'https://img.meituan.net/avatar/a6e53ff447e4c98a9ea2b2aa929c172e29593.jpg', '非常好的一个项目，美团上便宜一半', '2017-03-15 21:07:06', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('29', 'cSo18847402005', '33289618', '', '', '2017-03-04 10:11:21', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('30', 'NnD15861687506', '41236441', 'https://img.meituan.net/avatar/c092f61d79da7fc414b90bd437a204d8142505.jpeg', '', '2017-03-02 15:29:50', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('31', 'yIh433788830', '229414137', '', '', '2017-02-23 19:02:48', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('32', '不庸人自扰＿', '141124538', 'https://img.meituan.net/avatar/3c555ccde4402647604ebba55670171f12317.jpg', '还行。花四十块买了咬嘴和鱼料。鱼料其实可以不用买的。', '2017-02-22 13:11:44', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('33', 'JiFa菌', '238523640', 'https://img.meituan.net/avatar/e285e61b7c122f09eb48a02e57b097b459033.jpg', '价格实惠，教练态度很棒，玩得很开心，但是海水里面好像投放了太多的鱼食，可见度不太高。', '2017-02-20 17:58:45', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('34', '橙月0501', '715632341', 'https://img.meituan.net/avatar/b711eac124fea8d1f1759a6188419b0c135705.jpg', '去的时候已经快两点了，教练都还没吃饭，挺辛苦的，也没有潜一小时，但是真的看到很多鱼，教练说我潜的不错。很开心，哈哈，我朋友根本就不敢下去，哎~', '2017-02-19 16:41:57', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('35', '婷婷3852', '619540812', '', '', '2017-02-19 16:11:13', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('36', '林中大王', '41181889', '', '环境不错，风景好。但潜水骗人，水深1米人能站起来，特别气人的是潜水教练为挣钱忽悠我们拍照套餐。我要拍几张就行，他说不拍。要么300拍，要么500录。为了孩子我们俩人600元乱拍，真后悔。', '2017-02-14 08:46:56', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('37', 'LQM919660388', '774243497', '', '', '2017-02-10 07:32:47', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('38', '花脸儿62', '302248587', 'https://img.meituan.net/avatar/5bad31aa36dde735111bc8154c51e9fe184620.jpg', '', '2017-02-07 09:41:57', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('39', 'gAo13613600100', '40199893', 'https://img.meituan.net/avatar/f759ebbcd451112616247649413a27ae24437.jpg', '', '2017-02-05 09:54:36', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('40', 'panchao5566', '333034585', 'https://img.meituan.net/avatar/144827e0300b00b6ac372da523e066ff185572.jpg', '不错的地方，潜水很刺激！很好玩 可以去玩哦', '2017-02-04 19:41:44', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('41', 'Single思', '91611247', 'https://img.meituan.net/avatar/a74fd038effbff1259406e47cca616de71392.jpg', '团购很便宜也很划算、划算也很好玩', '2017-01-31 23:22:50', '-1897153504:http://p0.meituan.net/shaitu/77bb3153de55762ab90643342c9d35ce329112.jpg;\n-1897209867:http://p0.meituan.net/shaitu/deb9ee812b19008b656bcb651c0c62a4380992.jpg;\n-1897021384:http://p0.meituan.net/shaitu/e8948f6569609643c0986c00483867ae492275.jpg;\n', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('42', 'oumai99', '50329481', 'https://img.meituan.net/avatar/c08b9006b312ad75c6d1ad34baca698b10238.jpg', '还行服务挺好的，就是浅到时里面没什么好玩的', '2017-01-27 00:17:26', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('43', 'oumai99', '50329481', 'https://img.meituan.net/avatar/c08b9006b312ad75c6d1ad34baca698b10238.jpg', '感觉还行就是浅的太浅了，如果不拍照的话就没什么乐趣了', '2017-01-27 00:17:04', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('44', '明人不放暗屁。', '23584286', 'https://img.meituan.net/avatar/1bdc610cbc43b2212ebd4c4af98a02fd14304.jpg', '天气很好但水不好，除了那群鱼就是黑乎乎的石焦。一点意思都没有，很快就完了。还有50的必买套餐，30的咬嘴20的鱼食。是必买套餐啊！', '2017-01-26 15:55:25', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('45', 'a漩涡玖辛奈', '430595953', '', '超赞...第一天去没有照相遗憾.回来和老公说好玩老公又陪我去一次还照的像...我建议不照相就不用去了因为太美不照相会遗憾第二天还得照?', '2017-01-25 08:08:01', '-1897775295:http://p0.meituan.net/shaitu/958875f81d7ea3a461cc87a63d3c1b6a94140.jpg;\n-1897529820:http://p0.meituan.net/shaitu/187c70d4ced612559bf4715dc5d738b874334.jpg;\n-1897517192:http://p0.meituan.net/shaitu/8cadb6be168effc15a073aa3a82e378676058.jpg;\n-1897794917:http://p0.meituan.net/shaitu/d567165f279b7433db84e743454f9aa569272.jpg;\n', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('46', 'ZtZ893745057', '148207179', '', '不错，值得一玩。', '2016-12-31 13:59:29', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('47', 'rcm495901617', '107209180', '', '', '2016-12-29 17:53:16', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('48', '就这样吧成熟', '406165617', 'https://img.meituan.net/avatar/d4d250f278430ffeca80d54cefb3254d134820.jpg', '服务特别好', '2016-12-22 14:52:51', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('49', '就这样吧成熟', '406165617', 'https://img.meituan.net/avatar/d4d250f278430ffeca80d54cefb3254d134820.jpg', '', '2016-12-22 14:52:29', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('50', '宋凯鑫', '150916873', 'https://img.meituan.net/avatar/7589400f023e62b451804f47cd9a861654426.jpg', '真是差劲，退款说的是百分之十，手续费，退的还不够不靠谱的商家，去的恶心……', '2016-12-20 17:50:45', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('51', 'Y姚城', '264824887', 'https://img.meituan.net/avatar/5899fa09a6596c8cd6b30962313916c9307353.jpg', '骗人的，说是验证出票、去了又说不能用', '2016-12-19 23:51:04', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('52', '空空如也183', '453054424', 'https://img.meituan.net/avatar/b0f5006cbc90a7229d9cac678e87b1c332192.jpg', '挺好，服务态度好，下次去还找你家', '2016-12-18 21:52:15', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('53', '中肿种重', '285554555', 'https://img.meituan.net/avatar/473758d45842abd23e4b0755d9dd2f2a19601.jpg', '', '2016-12-14 16:46:01', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('54', '冰蓝极夜', '232225180', 'https://img.meituan.net/avatar/a0f0ed2fb6808d60fac815dbb5f2d4ca8164.jpg', '', '2016-12-06 18:03:45', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('55', 'NAb401356636', '221424941', '', '水不是很清，但教练还好，就是岸上服务人员比较不和客人交流', '2016-12-05 09:54:09', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('56', 'n22322', '113908425', 'https://img.meituan.net/avatar/d6a46208da1d5f7975a6e432014b36ea82923.jpg', '可能相对于其他，算平的了，照片拿回来基本不会拿出，至于价值，看多年以后吧……', '2016-11-27 20:18:09', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('57', 'n22322', '113908425', 'https://img.meituan.net/avatar/d6a46208da1d5f7975a6e432014b36ea82923.jpg', '如其他人说的一样，虽然预先知道要拍照，但事后后悔了。感觉应该是因人而异，反正我好方。', '2016-11-27 20:16:52', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('58', 'TUP、笙楠', '341058131', 'https://img.meituan.net/avatar/9aa4de5e1790c78c3dd0fe7beb38ed6b37469.jpg', '非常好玩，个人建议去玩玩。。。', '2016-11-22 22:46:18', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('59', 'strangerlee7', '92767248', 'https://img.meituan.net/avatar/63e2426e8e4c9382df79b3ccdcec1b9e125247.jpg', '很满意和十年前来的差不多不错棒棒搭', '2016-11-20 17:25:36', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('60', 'sXy935077679', '91146245', '', '教练很好，照相不怎么样，主要很便宜', '2016-11-12 07:31:47', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('61', '美食达人smile', '103100607', 'https://img.meituan.net/avatar/c08cb628f41874fd59e35aa1579ecca132151.jpg', '想来想去给了3分。算一般满意吧。因为自费需要30，照相的话态度很好。我一说不照相。那表情是个人都能看出不高兴，', '2016-11-08 23:28:06', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('62', 'fJO343615862', '98025764', 'https://img.meituan.net/avatar/fbf602da694532d3c8b32edcf0b92a8b23541.jpg', '一对一服务就是没有蜈支洲岛海清，不过价位相差很多', '2016-11-06 10:11:52', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('63', '两粒呀', '78971614', '', '非非非常非常好，值得值得值得拥有', '2016-10-30 20:28:10', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('64', 'CHYuan1111', '33086485', 'https://img.meituan.net/avatar/639cc4b7d8ded58674a369b8121366aa40364.jpg', '这个潜水一般般，水质不好看不清楚！', '2016-10-20 13:25:58', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('65', '我肿么辣么辣么帅', '101442030', 'https://img.meituan.net/avatar/43b240a912be190ac326767ee86163c015838.jpg', '挺棒的，就是拍照有点小贵，需要300，自费项目可选可不选，总得来说都是挺划算的，赞！', '2016-10-14 16:24:15', '-1913250317:http://p1.meituan.net/shaitu/2e0c1a789802bf02b8eda2cfb737136394479.jpg;\n-1913281831:http://p1.meituan.net/shaitu/4abb52be802bb4e7b19e3c5e0de6399390189.jpg;\n-1913133280:http://p1.meituan.net/shaitu/18359c2350c8586cfc2df48e2d9d3b9877315.jpg;\n-1913723642:http://p1.meituan.net/shaitu/725912c7d946c42a58559bd05f3edadd84687.jpg;\n', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('66', 'DancemaniaLover', '152157097', 'https://img.meituan.net/avatar/d784e8b04769b1e98e0c40a0247ae46961043.jpg', '阴天去的，虽然水下比较浑浊，但海边的服务还是很周到的，教练态度很好。', '2016-10-05 19:42:40', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('67', 'hcg665769313', '95808643', 'https://img.meituan.net/avatar/06038f2025fb1cd823f8a957380cf44450919.jpg', '价格倒是便宜了 只是性价比真不高 真正潜水时间短 而且不专业', '2016-10-05 17:48:09', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('68', 'hcg665769313', '95808643', 'https://img.meituan.net/avatar/06038f2025fb1cd823f8a957380cf44450919.jpg', '价格倒是便宜了 只是性价比真不高 真正潜水时间短 而且不专业', '2016-10-05 17:47:55', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('69', 'fangyuag', '17155375', '', '幸亏提前团购了，不然去那要花两倍的价格，但是团了一定要先预约好，让卖家告诉你怎么过去，大东海海滩是很大的 哦，我们今天就从这次走到了那边，将近半小时，大太阳底下的。去到那等了差不多一个小时终于排到了我们。潜水记得带泳衣。从出发到回来总共一个小时，入水应该有半小时或者久一点。总之玩的不错。还有就是潜水套路多，花钱需谨慎！?', '2016-10-04 14:24:47', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('70', '_weixin802326964', '254196005', '', '挺好的，没有说有强制性消费，都属于个人意愿', '2016-09-30 00:27:58', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('71', 'njt901673629', '239286854', '', '外甥比较满意，水下景色不错，值得玩。', '2016-08-23 16:22:23', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('72', '昊恩传媒', '89999375', 'https://img.meituan.net/avatar/82914f9bf57aadbce6049f5a3df46856138697.jpg', '我给差评了，可能游玩的人多吧，也可能大部分人没有玩过所以选择他们，其实服务很差劲，什么都是做做表面工作，尤其是坑你照相这一块，200一个人五张相片，我还有三张背后的人全部露出来了，没法看，关键是他们怕你拿着内存卡跑了，时时刻刻有人看着，醉了', '2016-07-16 12:07:20', '-2138393321:http://p0.meituan.net/shaitu/bba592942428b798ff4f3ab2792ebd7a307136.jpg;\n', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('73', '匿名用户', '0', 'https://www.dpfile.com/ugc/user/anonymous.png', '这次很不满意，本来订的是331的，可是给我们安排的是278元的，和以前路线不同，本以为路线不同没什么关系啦，可是回来发现竟然给我们安排的是价格相差那么大的，订两张相差一百多，打电话问他那有没有278的，他说有，还问我订哪天的旅游，后来我说我是今天已经旅游的，我说他给我安排的是278的，我订的是331的，他马上就说我打错电话了，哇塞，第一次遇到这样服务态度的，竟然说出这种话，希望大家以后得多注意', '2016-06-20 00:01:47', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('74', 'Uco369097124', '240968284', 'https://img.meituan.net/avatar/cc96d300c54ae952c898576a64492ee713433.jpg', '服务还不错，海水很蓝，潜水最多5到8米。能看到海中的条纹小鱼。海水感觉不是特别干净。', '2016-05-27 13:01:25', '-2114126155:http://p0.meituan.net/shaitu/dc0c25e1ce43dc01481c5916bb256c36271607.jpg;\n-2114151780:http://p1.meituan.net/shaitu/15e919eed30ed361f2bea49769f0691b295686.jpg;\n-2114183034:http://p1.meituan.net/shaitu/28beb40c40213a65e385a4ab78f9aee3290632.jpg;\n', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('75', 'ztt13486126000', '180745641', '', '没去完成！商家扣了很多钱！不喜欢', '2016-05-23 22:07:17', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('76', 'Au老虎油', '68653004', 'https://img.meituan.net/avatar/f29f1f5c45330cdf94bee1201e9071a715804.jpg', '潜水时间短，感觉不深，对于想初次体验的人来说还是不错的，', '2016-05-03 15:55:52', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('77', '用户5661081802', '322942405', '', '潜到了最底下，水有点浑不过这个价格性价比很高啦，因为时间比较紧，和教练说明了之后，教练很热心的给我安排，防止我时间来不及，下水后开始有点不舒服，过个一两分钟就好很多，建议自己要带毛巾，一次性咬嘴可以之前自己淘一个', '2016-04-11 21:52:09', '-1934724971:http://p0.meituan.net/shaitu/79fa707afb429d03ad5d792b9544717c49413.jpg;\n-1934609108:http://p1.meituan.net/shaitu/05fde08caa8a9fb478a520f3a2db067042694.jpg;\n-1935131874:http://p0.meituan.net/shaitu/3d0538c96280cb58eb643f4df312b1ef33231.jpg;\n', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('78', 'nSF579217427', '80988874', '', '潜水服别人穿了都不用洗就脱下扔在那里下个人接着穿，都是贴身穿的，这点特别不好，湿湿的穿身上在海上等了一个多小时，好在教练还不错，潜得不深，感觉不错。', '2016-04-08 09:10:58', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('79', 'Fly2219', '120224908', 'https://img.meituan.net/avatar/6ea6a616d8a6f24bd8b4eea4c2bd9c72124404.jpg', '值得来一次，服务态度很好，就是海水有点混', '2016-04-06 14:38:45', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('80', 'gUP50531290', '154948761', '', '教练还不错，但就是海底可见度一米吧…', '2016-03-31 11:22:57', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('81', 'RNT918213686', '134099873', 'https://img.meituan.net/avatar/79d1df35fbeeb7bfb801add19fd0e81d26727.jpg', '今天我潜了两次。一次跟团的，一次就是美团的，跟团的420，但服务很好，一步一步来。美团的，唉，一直问我拍不拍照片。不拍照片就板着脸。差差差！！', '2016-03-30 14:31:26', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('82', '我是狼外婆oo', '124319270', 'https://img.meituan.net/avatar/3261ea487e68a2b60a391753790bcc09256635.jpg', '毛巾略显破烂，教练挺有耐心的，不过不准用自己的手机拍照，鱼倒是挺多的。', '2016-03-28 14:25:42', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('83', '忠燕爱铭', '322388555', '', '怎么说呢！一般般吧！潜水教练一个劲的叫你照相！不照就潜个5米！海底压根没看到！那都是钱开道呀', '2016-03-27 15:11:48', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('84', '匿名用户', '0', 'https://www.dpfile.com/ugc/user/anonymous.png', '非常不满意，百乐潜水服务态度不好，忽悠我加钱换深海潜水，加了50元，还和没加钱的一样，另外别人家的团购的潜水比这家便宜！', '2016-03-24 08:37:49', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('85', '其实萌萌嗒', '105342442', 'https://img.meituan.net/avatar/ab60ecb0aa1afd1350a6378c584b01f099201.jpg', '差评 海里什么都没有 就几个不值这个钱   照相根本就不咋地 二百块钱五张  最后照片都没要  太难看了内个阿姨的服务态度真差', '2016-03-23 23:29:47', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('86', 'xnc950449184', '225621802', '', '反正也就这个价格，体验一下就不错啦。水不是很清，有鱼，别碰水母，痒死了。相对而言其他大几百的，就是实惠。总体质量一搬，不差钱就去好的咯', '2016-03-23 09:44:04', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('87', '匿名用户', '0', 'https://www.dpfile.com/ugc/user/anonymous.png', '本来一星都不想给的，自己玩比他们更实惠，去到海口上车还要加100元，导游说我们年龄小没有消费能力不加就不发团验证以后也不能退就算了，而且上车以后基本就可以当个木乃伊了不能说话不能吃东西还不能睡觉，第一晚住的酒店破一点偏一点没啥关键是吃的是榨菜萝卜，洗澡水也是臭的，景点就呆半个小时，购物项就是两个小时，也不知道是不是所有的旅游团都是这个样子，跟了一天我们就离团了不清楚还有两天玩了什么', '2016-03-20 13:33:28', '-1937861728:http://p0.meituan.net/shaitu/8cda1172b528184fbd858c9f6ea2d3ac87735.jpg;\n-1937981123:http://p1.meituan.net/shaitu/c1c38641e9d56c5b5edff42f44f2dd6f75772.jpg;\n-1938534166:http://p0.meituan.net/shaitu/4f4406a1bd4680516383cf51d771ea7a102391.jpg;\n-1937743372:http://p1.meituan.net/shaitu/b9fb5eaff44327e754cde9636f6d356487782.jpg;\n', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('88', '做好牙医', '33736885', '', '挺好的团，不过好像价格参此不齐，有时间的朋友可以好好砍价，色香味俱全，实惠，而且服务特别好，气氛也挺好，强烈推荐！色香味俱全，实惠，而且服务特别好，气氛也挺好，强烈推荐！色香味俱全，实惠，而且服务特别好，气氛也挺好，强烈推荐！', '2016-03-19 20:02:05', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('89', 'JXG210718227', '259239551', '', '不错，超值！就是照了照片后悔，可是不照也会后悔', '2016-03-14 22:39:52', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('90', 'pJe696853703', '169121148', 'https://img.meituan.net/avatar/807e9c8076ba0bd47cab9d65bbb8893333665.jpg', '一对一的服务，教练很负责任，可惜自己实在不能坚持。', '2016-03-08 00:31:21', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('91', 'VGF911051509', '310796521', '', '游客太多的时，潜水服和鞋太烂，', '2016-03-07 14:07:03', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('92', '匿名用户', '0', 'https://www.dpfile.com/ugc/user/anonymous.png', '一般般，水不清晰，浪费的时间长。', '2016-03-06 19:57:22', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('93', '匿名用户', '0', 'https://www.dpfile.com/ugc/user/anonymous.png', '差差差差差差差差差差差差差差差', '2016-03-03 23:00:56', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('94', '黄呸呸__TAO', '96446800', 'https://img.meituan.net/avatar/4173b977797be2fdf686e752c1313c68158750.jpg', '设施 服务都还不错 教练挺负责的 （教练捡到海螺都不赏给我 差评 哈哈哈） 我本身不会游泳 所以基本没怎么潜下去 凭着憋气看了几次就吃不消了 不会水性的宝宝我好悲催 上来后工作人员大叔还赏了糖 不错', '2016-03-03 20:18:19', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('95', 'ztyxer', '33071253', '', '这个价格还是不错的，没得说，第一次去还行，挺照顾，水太浑了就是', '2016-03-02 13:36:16', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('96', 'wPD166359720', '158425076', '', '气候温和，适合潜水。价格适中。', '2016-03-01 14:19:22', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('97', 'Xpq420369706', '143804334', '', '导游普通话虽然不标准，但为人很负责。虽然行程还算挺赶的，但玩的挺开心的，刚开始跟车上的人很不熟，不好意思说话，后来玩着玩着熟了，居然在车上唱起歌了，气氛好好好，只可惜，去天涯海角那里事，我跟闺蜜在那海边啃绝味。。。没有去到，下次再来！', '2016-03-01 11:52:52', '-1940156128:http://p1.meituan.net/shaitu/69edb44ec0bcbea85a92694437b75724289171.jpg;\n-1940293559:http://p1.meituan.net/shaitu/ffb0ea485474dfbcb33e19c4018a7be2468199.jpg;\n-1940089396:http://p0.meituan.net/shaitu/ffe14f9bb5336d18657dbe547546ddea419402.jpg;\n-1940665802:http://p1.meituan.net/shaitu/571e02af2f1001759f03830d26b550c8403329.jpg;\n-1940264445:http://p0.meituan.net/shaitu/593a8abe7b6137c592685df092efade5258416.jpg;\n', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('98', 'myb_0421', '57586485', 'https://img.meituan.net/avatar/4ed1a9a79ea81b8f170b89bf48ed026956629.jpg', '第二次团了，很划算的，很美好的一次海洋之旅', '2016-02-29 00:28:57', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('99', 'dxC698306835', '50613631', '', '教练很耐心，很快就学会了也克服了恐惧，只是海水质量不是很高，在三米以内可以看看，再深就是浑水了', '2016-02-28 11:13:16', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('100', 'jDe988231087', '96986010', 'https://img.meituan.net/avatar/43b042e1be9f8feb31de5852e9ede1ff101425.jpg', '不错，服装跟其他潜水俱乐部的比着太给面儿了，新的，没有旧衣服。让人家看着眼红。提前打电话说是美团了还服务这么好，很难得的。店家和服务生都很热情！有洗澡和存包处。不错！不错！教练跟好，一直都是全程服务很负责！！给个赞！！', '2016-02-28 00:26:03', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('101', '齐齐开心520', '101993092', '', '潜水还是挺久的，只是离岸很近，水比较浑浊，鱼的种类不是很多！潜深点耳朵又受不了，放弃了！拍照每人200元，虽贵了点但还是有纪念价值！家里人都是第一次潜水，很开心！团购价格比较优惠，全程服务不错，整个流程流畅，值得一去', '2016-02-20 00:37:31', '-1934834275:http://p0.meituan.net/shaitu/750f84c53999eb87b2f843ee157c2895258599.jpg;\n-1934806879:http://p0.meituan.net/shaitu/05c0346112c3abbcf59892fb54b7dbd6318759.jpg;\n-1934642808:http://p1.meituan.net/shaitu/81ef5c680112d6deb3503598da57e3fe254479.jpg;\n', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('102', 'jon758016966', '74697685', '', '孩子说不错哦！有三十分钟。还想再玩一次！', '2016-02-19 20:41:34', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('103', 'Isaycola', '52865984', '', '接待一般般 没什么服务可言 租一个柜子20块押金100 洗澡那些都要钱我以为潜水之后冲澡是免费的。。幸好酒店在附近直接湿湿的回酒店。。和男朋友去 1号和7号教练都特别好 有耐心又幽默一直安抚我哈哈 就是拍照真的太贵了200块5张 只能一个人的 合照那些要400块10张 按人头算的 潜水完以后好冷 在那里***得坐着 问什么时候可以走 又不说就让我坐着等船 船都来了又要等都不知道等什么 除了教练以外没什么好的 就那样', '2016-02-19 14:45:47', '-1936769622:http://p0.meituan.net/shaitu/b7c3f8693daf6d6908ae19fcf068adee277780.jpg;\n', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('104', '_weixin031200070', '209196475', '', '很不错，教练下水前讲解的很详细，没有玩儿过的可以去看看！', '2016-02-17 20:18:01', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('105', 'zhaoqing137', '230364031', '', '一次很失望的潜水，我们一行6个人让我先去探路，不知道西岛和蜈支洲怎么样，这儿是放弃了', '2016-02-17 18:31:33', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('106', 'IEQ755504603', '243031812', '', '潜水教练服务态度很好，但是接待处女服务员态度好差，一副嘴脸绷紧得好像游客是敌人一样，说话的语气像喃喃自语，让人基本上听不清楚说的什么，受不了这种态度，不过毕竟我们都是游客，行程安排好了，只有忍气吞声，下次不会再在这家耍了。如果觉得团购便宜你们就该服务不好，那你们完全可以不搞团购活动！', '2016-02-17 09:48:17', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('107', 'Knn13804883453', '43053718', 'https://img.meituan.net/avatar/8272f024e01a27fa2885f37f4289cf0249986.jpeg', '我们3个人去的，换票也很快，教练很用心的，拍照最后要200感觉也很划算。在水下能呆半个小时左右，最后上岸还有姜汤喝感觉挺体贴的。', '2016-02-16 21:46:32', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('108', '匿名用户', '0', 'https://www.dpfile.com/ugc/user/anonymous.png', '第一次潜水，感觉耳朵痛，好黑，不过服务还好', '2016-02-12 15:28:15', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('109', '匿名用户', '0', 'https://www.dpfile.com/ugc/user/anonymous.png', '潜水时间还算可以，将近半个小时了，水质清晰，不错，商家卖的价格划算', '2016-02-11 19:46:09', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('110', '匿名用户', '0', 'https://www.dpfile.com/ugc/user/anonymous.png', '潜水服感觉破破烂烂的，也没有图片上面拍的那么漂亮，不过潜水教练服务态度很好', '2016-02-09 08:53:24', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('111', 'SPERANZA578', '112286027', '', '还好吧，就是取票的时候出点差头，来回交涉半个小时。 海里还可以 能看见鱼群和珊瑚，对于体验者来说 可以了，', '2016-02-06 21:48:52', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('112', 'ayr704096874', '104125236', '', '超级棒的潜水 5号教练很有耐心 很可爱 拍照200元5张 可惜照的时候都被鱼抢镜了 咬嘴弄掉了一个 所以买了两个 来之前女生一定要带泳衣 因为潜水衣不防水 难得美团评论这么多字哈哈哈 还是很不错的 强烈推荐来这里潜水', '2016-02-03 21:25:07', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('113', 'q372305906', '37666078', '', '很差啊 实在是不好 下水了又强行要拍照', '2016-02-02 01:45:56', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('114', '小阿姨阿曾', '175817990', 'https://img.meituan.net/avatar/119541f56f402e751346597ff080ce68247872.jpg', '还不错 挺好的。教练很好 长得不错', '2016-01-30 22:20:25', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('115', 'erT650504884', '89450163', '', '一般般，团购的待遇不行啊，海底景色没想象中好有点失望', '2016-01-21 21:56:50', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('116', '匿名用户', '0', 'https://www.dpfile.com/ugc/user/anonymous.png', '******骗人了，就十分钟的事，而且就下3、4米完了！太假了还不如浮潜呢', '2016-01-21 00:07:40', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('117', '杨小虾儿', '215983444', 'https://img.meituan.net/avatar/23bcc05a25077fa58b2017c3c123976d89352.jpg', '不错！拍照有点贵！玩得很开心！', '2016-01-20 00:56:27', '-1931717657:http://p0.meituan.net/shaitu/502e12cb2cffb10da1bca1f7293c5e63259668.jpg;\n-1932337902:http://p1.meituan.net/shaitu/2718ce311dc2fa4b12aa7c49e9c8099d239353.jpg;\n', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('118', 'Lover皇妃', '34914164', 'https://img.meituan.net/avatar/4090dc6e2af396626db7c9a1a8c3ce1d15826.jpg', '天气还是不太好，有点冷，所以下水也会冷。没拍照，因为问了水下拍照是比较贵，所以没拍，200块5张，虽然是景点区但是消费也是太高了。潜水教练挺幽默的，一直很好的打手势问好不好，要不要深潜，阳光不好能见度比较低，但还是看见很多珊瑚和热带鱼，主要是潜水服太紧，勒得脖子很难受，加上稍微有点晕船差点吐了，但这次潜水还是比较满意的。', '2016-01-14 16:54:39', '-1941789759:http://p1.meituan.net/shaitu/94c2735cc66570c47a45ce533c1a49d134598.jpg;\n-1942327574:http://p1.meituan.net/shaitu/c37e34a2fcf81944f4a6b052c8131a3549395.jpg;\n-1941806509:http://p1.meituan.net/shaitu/9ca95b7bb163a3ded2022880f5a2e00583189.jpg;\n', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('119', 'fdH643197165', '197847038', '', '很棒的一次体验，第一次潜水！教练也很负责！', '2016-01-13 12:51:00', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('120', '匿名用户', '0', 'https://www.dpfile.com/ugc/user/anonymous.png', '前面两天还好 最后一天都是购物点。不买的话导游还会说。而且时间观点很弱。每次集合都要拖最起码半个小时  一天好几个景点  拖的玩的时间就变少了 再来说说景点。海边是真心漂亮 天涯海角也很美丽 一定要跟自己爱的人来一次才完美～', '2016-01-12 00:18:30', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('121', '杜鲁Drew', '64128290', '', '教练很负责任，对我第一次潜水，值得推荐，教练会讲很多注意事项，开始很怕，很怕，慢慢的就好了！', '2016-01-11 18:21:58', '-2129254936:http://p1.meituan.net/shaitu/67420a140186eb36be291451659f78da78951.jpg;\n-2129180575:http://p0.meituan.net/shaitu/ea151d7aae4e88fe90ba2dfb1b32551c63396.jpg;\n-2129272737:http://p1.meituan.net/shaitu/6d9a04fb782e9c9c741169c48272503e41109.jpg;\n', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('122', 'ESy935522683', '114575707', '', '价格比较实惠，服务态度也就那样，毕竟钱不到位，也没什么好说的', '2016-01-11 10:41:42', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('123', 'IzV962369560', '158255598', '', '大东海的海水现在都没以前的清澈，脏污污的，教练还不错', '2016-01-09 20:04:42', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('124', 'oWf988987731', '110714892', 'https://img.meituan.net/avatar/859950bdc9ab24eecf01553cee80434142601.jpg', '大海真漂亮，给力，教练不错不错', '2016-01-02 14:40:24', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('125', 'sexy米小杨', '36662695', 'https://img.meituan.net/avatar/5b2293def03609fb24b9668d61243ff4122283.jpg', '太简单了！海底没什么可看的，不如出多点钱去蜈支洲', '2015-12-30 08:06:08', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('126', '李丹妮～', '63833914', 'https://img.meituan.net/avatar/ee788f659217764a807610051d1994e768810.jpg', '教练不错～初体验者适合，想正规点的还是去西岛那边，较正规干净。这边挺实惠的～照相另外收费400到600，咬胶20一个。挺好', '2015-12-29 20:47:42', '-1927805807:http://p1.meituan.net/shaitu/4ff6bc3601b8a994a40069b9ce7ce857225423.jpg;\n', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('127', 'tcT281276019', '224116217', 'https://img.meituan.net/avatar/e7ec849b9f29fbef0123e71cb3212a3263599.jpg', '千万不要拍照，千万不要拍照片！太坑！太坑！', '2015-12-29 15:15:28', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('128', '董园园曼联', '1516035', 'https://img.meituan.net/avatar/8f58ffa03aec9c10c63961f1dd159e0143471.jpg', '帮亲戚买的，就是行程有几个购物点，不过不会强行购物，导游挺好的', '2015-12-28 11:14:03', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('129', '柠檬587', '16532623', '', '很一般，都是购物景点。导游蛮好的，风景也很好。', '2015-12-24 16:50:12', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('130', 'KVV785722174', '74370008', '', '首次潜水 感觉很好 就是没有看到鱼', '2015-12-20 10:15:22', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('131', 'xb3456789', '147289201', 'https://img.meituan.net/avatar/e32b22e63e89566f549142e63953a89118930.jpg', '非常可以，练练员非常有耐心，值得去', '2015-12-04 15:19:57', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('132', '用心棒127', '107147515', 'https://img.meituan.net/avatar/46a260af129bcaa843c8599201c7cffe15504.jpg', '价格合理，教练很棒，水域也不错', '2015-11-28 13:07:21', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('133', 'qTf390527117', '227639618', '', '都是骗人的 .朋友千万别够.上面写的地方根本不去.468和320的团一样.玩的地方都是让你买东西.啥也没有.吃的都是垃圾、逛了一天除了让你买东西啥也没有看到', '2015-11-19 09:14:14', '-1937949824:http://p0.meituan.net/shaitu/acb566a200d5d3ed9b5416d722ba2ca2644587.jpg;\n-1938105095:http://p0.meituan.net/shaitu/792a437d20f972b007e2de4d94cedaed494416.jpg;\n-1938645918:http://p1.meituan.net/shaitu/affe06259f2acab106e9a9db8c042e76519541.jpg;\n', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('134', '涂贤明', '126568323', 'https://img.meituan.net/avatar/13c094f7f69052b0c93aa9e1fd8868e08966.jpg', '设施还行，教练很细心的教，潜水时间也不短', '2015-11-14 15:06:15', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('135', 'nancy833', '10260749', '', '儿子去玩的，他说水不是太清，看到的热带鱼种类不是很多，小丑鱼都没看到，有看到珊瑚，， ，去潜水的地方是坐摩托艇过去的，他玩得很开心。潛水点的服务态度很好。我是177团的，超值!', '2015-11-10 00:25:32', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('136', '萌哩个萌萌儿', '113337832', '', '潜水还是很好玩，我们拍了600多的潜水照片，但是电子版没有拿到，店家说是发到网上我们自己下载，但给的网址登录不上去，感觉被骗了，不高兴！！难得来一次南海', '2015-11-04 00:00:03', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('137', 'Bmo842014548', '140501572', '', '不错，性价比高，没有玩过，去玩玩，便宜', '2015-11-03 09:23:32', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('138', 'bnz18805313877', '30586641', '', '简直就是一坨***！时间短，浅镜漏水！就在离案不到100米的地方，可拉倒吧～去了你就后悔', '2015-11-02 10:33:01', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('139', '戴昀珊', '36471004', 'https://img.meituan.net/avatar/883c7d0a6e7505814b70a27d302aaf49113465.jpg', '不错哦，教练很耐心的，人非常好。感觉很好玩，下次还回去的。', '2015-10-24 15:32:49', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('140', '创二代666', '177898715', 'https://img.meituan.net/avatar/171859f9d34c6374614090f34c84a91c10997.jpg', '还行 远海潜没去成 近岸太浑浊了', '2015-10-20 13:30:13', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('141', '血饮豆花', '105671288', 'https://img.meituan.net/avatar/a2a743f41aac1d0b719467a9353c113129155.jpg', '地方不错，价格很优惠，孩子小没潜多深，总的来说不错，值！', '2015-10-17 01:40:56', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('142', '木南先生的喵小姐', '72237630', 'https://img.meituan.net/avatar/6686e87b2095eb56929bba3ef150fb9b81866.jpg', '还不错，水下看到很多珊瑚跟鱼。鱼群在身边游过，想抓又抓不到！就是服务的话，稍微有些欠缺，态度不是很好，多说两句都不情愿的样子。', '2015-10-02 00:41:35', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('143', '匿名用户', '0', 'https://www.dpfile.com/ugc/user/anonymous.png', '很好很好，真的不错，太好了，下次还来。', '2015-09-25 10:07:08', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('144', 'tayi051700', '28050217', '', '很一般！跟这上面的行程一点也不一样！导游也不是很热情！一共就两天，第二天就带着购物啦！啥都没干！很不满意！', '2015-09-23 14:57:06', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('145', 'mili69', '60655335', 'https://img.meituan.net/avatar/7f2cdceddb5ba487e1b4b3d6c6769610237290.jpg', '教练都挺好，初次潜水，还有点小紧张', '2015-09-22 10:31:57', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('146', 'jXK719756376', '100948133', '', '最低消费200照片的费用，我花了400买了照片，结果光碟是假的，根本没有照片', '2015-09-21 15:07:29', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('147', 'pkX343835106', '86039403', '', '第一次报团，给我的感觉特别不错、尤其是住的酒店，还有导游杨才颖', '2015-09-21 12:40:14', '-1935335911:http://p0.meituan.net/shaitu/5789a3734a84d424f5e533e8f574a99d219285.jpg;\n-1935076796:http://p0.meituan.net/shaitu/634311366959c8f218285dd34181ea06241983.jpg;\n-1935277919:http://p1.meituan.net/shaitu/2b23f34eb4080508f47e2b81aaba8c1b401244.jpg;\n-1935144692:http://p0.meituan.net/shaitu/22dfadfa7f1baaad8fc1844be72d07b7212428.jpg;\n-1935335895:http://p0.meituan.net/shaitu/ce72b590b34066ec55091ed595da789e163465.jpg;\n-1935277903:http://p0.meituan.net/shaitu/ed491226954a1b71d1f132fbf207ed1b196972.jpg;\n', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('148', '杜月0045', '24899180', '', '潜水的教练很***！比较好玩！很刺激！', '2015-09-14 13:43:55', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('149', 'Cav103013310', '91434221', '', '一分钱一分货，还行，潜水服旧了些，发储物柜钥匙的那b态度差，友情提示下雨天别去，我们运气差碰上下雨天', '2015-09-13 16:57:28', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('150', 'xiaoling1027', '54982888', '', '潜水很棒。可惜去太迟。下水阴天 上来大雨', '2015-08-27 15:33:06', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('151', '匿名用户', '0', 'https://www.dpfile.com/ugc/user/anonymous.png', '要是海水清澈一点就好了，比较浑浊。鱼的种类也单一。这么点钱就不要要求过高', '2015-08-26 19:03:49', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('152', 'ijn324872432', '69178727', '', '教练灰常好，性价比很高，蛮刺激，看到啦', '2015-08-26 19:03:48', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('153', 'HKz385116176', '238422973', '', '晕船晕海真的好晕 都吐了 就是晕', '2015-08-22 15:29:18', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('154', 'kco926591648', '110047940', 'https://img.meituan.net/avatar/2bb9b1e67f7226a544f8e2b53dd2149a25040.jpg', '浅浮，因为自己太菜鸟了，也没办法，没玩过的可以第一次去试试', '2015-08-19 22:40:50', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('155', 'Zhb79951016', '140001430', '', '安全性不错，那里的教练总是恐吓威胁我说，不听我的话就自己游回去，我就先上去了，妈蛋，我是来消费的，，特别不喜欢6号教练，珊瑚都不是像图片那么清晰，鱼还是可以的，好漂亮，总要试试玩玩，自己体验咯！我坐上去有点晕船，耳膜痛的受不了，温馨提示上年纪的最好是不好去，还有心脏病高血压，耳膜受过伤的，海水的压力很大，以上几种情况都不适合！', '2015-08-12 05:12:19', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('156', '吴尚炫', '83444058', '', '价格合理，不过据东海龙宫停车场人说，不在网上订，直接找教练只要150元，我觉的不太正规，还是找正规商家，安全更可靠。', '2015-07-16 15:24:14', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('157', 'Tsunami534', '184027034', '', '潜水挺好玩的，教练也挺幽默点个赞', '2015-07-11 12:59:46', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('158', 'ROe562009615', '127596281', '', '放虎归山大会决定单独更换部分的地方工会和规范法官', '2015-06-23 13:17:51', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('159', 'denese123456', '2823988', 'https://img.meituan.net/avatar/b7a8219a75eb1bcf7b821a144557157e70341.jpg', '根本什么都看不到啊！太坑了吧！', '2015-06-09 18:43:10', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('160', 'sanji0806', '26097561', 'https://img.meituan.net/avatar/b92c7fa36cf15074ae6fe06a613debae60500.jpg', '水不是很清。比蜈支洲岛差远了。但是服务还是可以的', '2015-05-31 13:48:30', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('161', 'sinhoo312', '35755455', '', '出行不是很方便，下公交还要走10分钟路。服务不错，去的时间晚了点，他们还是等了我。教练东北人，非常热情一小伙子，带我潜下去一次后，感觉就那样，所以我很快就上来了，我还问我下不下，没有因为我不照相就随便应付。', '2015-05-24 23:04:42', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('162', '殷莎拉', '102158170', '', '好！跟团队的药380还是自己团购便宜', '2015-05-21 12:00:07', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('163', 'DG6763', '58005254', 'https://img.meituan.net/avatar/1d469021ea72d9a403d67210469f204632320.jpg', '坐车多，景点时间少。第二天南山游了后，去二处购物了。一般吧任。车坐累了。导游水平一般，组织得麻麻，有的景点好像没去到？吃要吐槽了，能减肥。住那机场旁边，吵吵的。提醒照相的相片最好少要，***啊！4人平安回家，好累！', '2015-05-04 20:13:44', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('164', '诺熙宝贝sisiyuyu', '92521522', 'https://img.meituan.net/avatar/8473dbc2cf68d628c51dbcd7e57c39bb69654.jpg', '真心不错觉得这里值得一去海底很美很漂亮服务态度很好真心美', '2015-04-25 17:25:02', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('165', '撑死我吧，', '25661372', 'https://img.meituan.net/avatar/347b7aa37fa821a79992dbb41307fa6e126208.jpg', '不公平我后朋友圈马上到！随心所欲MSN朋友', '2015-04-12 18:13:48', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('166', '匿名用户', '0', 'https://www.dpfile.com/ugc/user/anonymous.png', '还不错吧，时间不是很长，相片很贵，都没有照到鱼', '2015-04-09 23:26:57', '-2062104493:http://p1.meituan.net/shaitu/cced3e85562d0336429341f81f56f51b185821.jpg;\n-2062106579:http://p0.meituan.net/shaitu/d6b7a48f728ee7f8b8c49e7162c9b53d189673.jpg;\n', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('167', 'Xcl499089277', '145664180', '', '非常愉快的潜水 而且价格不高 就是位置不太好找 我给好评', '2015-04-04 22:38:49', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('168', '现实太美。。', '101072313', 'https://img.meituan.net/avatar/ff361d4a4f10cd3bb4f621db34fc10b991503.jpg', '比景点便宜200多。好像是民营的。设施比景点差一点点。服务很热情，潜水前五分钟是漂浮。后十五分钟是潜伏，五分钟算是真正潜水。我下到五米，就上来了。后五分钟就是慢慢靠岸了。总的来说一般般，总是让照相（肯定要额外收费的）', '2015-04-04 22:38:49', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('169', '其实没有什么XY', '28325973', 'https://img.meituan.net/avatar/d2d901e3a4b51a6447c1f89be64579a3202187.jpg', '很好的一次游玩太好玩啦太刺激啦', '2015-04-04 22:38:48', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('170', '爱睡懒觉D猪', '109163888', '', '什么也看不见，能见度可能才30Cm.后悔没在蜈支洲到玩，当时就是觉得太贵了', '2015-04-02 21:57:00', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('171', 'Zum896133483', '175100188', '', '老板，能不能把照片的网址发给我，我弄掉了，谢谢', '2015-04-01 00:09:03', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('172', '匿名用户', '0', 'https://www.dpfile.com/ugc/user/anonymous.png', '一次很好的团购。正规的潜水机构。千万不要去相信的士带你去的潜水的地方。一万个赞 真正的省钱。建议水下拍照不要选择。看不清楚人。', '2015-03-27 20:03:05', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('173', '吴亦凡128', '53043851', '', '水比较浑浊，潜水时间好短，一会儿就上来啊', '2015-03-27 19:29:27', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('174', 'Zsc850685031', '71984184', '', '看到好多鱼，太赞了，还很优惠，非常划算，还会再来', '2015-03-27 19:29:27', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('175', '匿名用户', '0', 'https://www.dpfile.com/ugc/user/anonymous.png', '设施一般，环境一般，服务人员态度一般，感觉很随意.总体感觉一般', '2015-03-27 10:39:25', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('176', 'Wqm304191205', '93737162', '', '美团价格很便宜，下了两三米有点不适应就上来了', '2015-03-26 18:37:27', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('177', '匿名用户', '0', 'https://www.dpfile.com/ugc/user/anonymous.png', '价格便宜，服务还可以，设备一般，海水不可斗量', '2015-03-22 22:17:37', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('178', 'Queen_Miumiu', '41203711', 'https://img.meituan.net/avatar/767666c93f6a24c456106d11f77ba96b189146.jpg', '非常有意义的一次潜水活动。拍了照片很不错', '2015-03-18 17:53:10', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('179', '警察丢丢', '144350132', 'https://img.meituan.net/avatar/3fc05e19ae6e73e327944753da2b430a53371.jpg', '还算好吧！180块来说还算可以啦！', '2015-03-14 17:01:22', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('180', 'jiejie5724', '11137773', 'https://img.meituan.net/avatar/2980d76f259ee58c77042428d959dcb9134220.jpg', '很好，180这个价格自己去很好了，时间也可以，教练也很细心', '2015-03-12 18:46:27', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('181', 'Jvf576082800', '122441933', '', '价格千奇百怪！！潜水衣服感觉好脏，一次性气嘴说新的，还20远！是被咬过从新包装的！！教练一直怂恿你海底拍照，我和女友两人的教练开价差100元！果断决定不照了', '2015-03-09 12:51:08', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('182', '匿名用户', '0', 'https://www.dpfile.com/ugc/user/anonymous.png', '比平常去真的便宜好多呀！值得去！', '2015-02-28 21:36:37', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('183', 'xch780220', '19642759', '', '带孩子去玩的，感觉还不错，就是水下的环境不是太好', '2015-02-27 17:01:44', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('184', 'eVd691426516', '137746620', '', '挑战了怕水的自己，这就很满足啦！27号教练态度和蔼，很棒！', '2015-02-24 21:34:07', '-2009125344:http://p1.meituan.net/shaitu/62aca9097e178fb19213ff7074dcb5fb90175.jpg;\n-2009096025:http://p1.meituan.net/shaitu/e9628053ff4c5014353bc6607080433a86732.jpg;\n-2009126621:http://p1.meituan.net/shaitu/0aee2731fe41dd3ea5e54f45b508628483346.jpg;\n', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('185', 'Felicitylll', '140591445', '', '确实比单独买便宜不少，但是水质不怎么样，而且拍个照花了400好贵，单独买个一次性的嘴还要30', '2015-02-21 14:45:49', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('186', '匿名用户', '0', 'https://www.dpfile.com/ugc/user/anonymous.png', '服务很到位，装备很好，下次还会美团去玩！很值！', '2015-02-17 22:58:54', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('187', 'kidult8023', '980735', '', '店家服务态度不错，位置也很好找', '2015-02-17 22:58:54', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('188', '匿名用户', '0', 'https://www.dpfile.com/ugc/user/anonymous.png', '服务很周到，态度很好。价格合适，下次还来。。。', '2015-02-17 22:58:54', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('189', 'xiatian15', '49319696', '', '签订了一张，补上了。一家三口刚合适！还有水下照片。', '2015-02-14 23:16:32', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('190', '小吃货320', '30104910', 'https://img.meituan.net/avatar/3542fc16cca56e4cac23a32061ae0129194551.jpg', '团购是很划算的 门市是400多', '2015-01-30 22:02:30', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('191', 'BMc17450028', '62411779', 'https://img.meituan.net/avatar/b2e548bd7256cf6a0f0905b2078b3bd532122.jpg', '很一班，哪是潜水呀，一进去什么也看不到，海水脏的要命', '2015-01-28 00:20:34', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('192', '匿名用户', '0', 'https://www.dpfile.com/ugc/user/anonymous.png', '除了那个看着像石头的珊瑚焦.....', '2014-11-29 20:00:52', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('193', '匿名用户', '0', 'https://www.dpfile.com/ugc/user/anonymous.png', '教练很好，但水质去的时候不够好。不过还是很好玩儿的。值得一试！', '2014-11-28 20:46:40', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('194', '匿名用户', '0', 'https://www.dpfile.com/ugc/user/anonymous.png', '水有些混…性价比还好，一般人受不了水压耳朵疼', '2014-11-26 12:42:22', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('195', '匿名用户', '0', 'https://www.dpfile.com/ugc/user/anonymous.png', '还可以，价格划算。下海搞了一会我就起来了，耳膜耐不住', '2014-11-25 13:01:52', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('196', '匿名用户', '0', 'https://www.dpfile.com/ugc/user/anonymous.png', '不错，很好的体验，两个服务阿妹都很负责，适合散客，自由行提前预约，价格实惠，取票地不运，阿妹详细指导无误', '2014-11-22 11:30:22', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('197', '匿名用户', '0', 'https://www.dpfile.com/ugc/user/anonymous.png', '前台的服务令人非常不愉快，服装破旧，不合身，180都贵了，别说现场买要400。教练倒是敬业。说是堡礁潜水，现场教练说不是！至于是哪类型不得而知。要想水下拍照质量好点的朋友考虑别处吧！', '2014-11-21 14:33:16', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('198', 'zhv168375677', '95112342', '', '很好玩。一定要去大东海潜水哟。教练人黑好。很耐心', '2014-11-21 14:14:02', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('199', 'S.丽丽', '91725104', '', '定的堡礁去了说天气原因只能玩案礁 进去够耳朵就疼得很 说是半个小时 但是坚持不了 水很浑 没看到多少生物', '2014-11-21 13:37:06', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('200', '匿名用户', '0', 'https://www.dpfile.com/ugc/user/anonymous.png', '好实惠，比旁边几家好多了，特别教练人很好，在海底捞了一把沙', '2014-11-21 11:44:34', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('201', '匿名用户', '0', 'https://www.dpfile.com/ugc/user/anonymous.png', '水不是很好啊，不够清澈，不过相对于这边来说价格很便宜。', '2014-11-20 14:54:32', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('202', '匿名用户', '0', 'https://www.dpfile.com/ugc/user/anonymous.png', '团购的潜水，这个价格可以试试！服务生的态度很差！教练很好！赞', '2014-11-20 11:18:41', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('203', 'Z_ALin', '81227535', 'https://img.meituan.net/avatar/325e2c503b56f2fd7a3902bad8fd5b4870332.jpg', '总得来说还不错，到那售票的人和教潜水的师傅都挺好，特别赞下11号潜水师傅，人好有耐心，就团购的时候旅行社那接线员妹子口气真心不好，我是去消费的， 她那口气说得感觉我欠她几百万，求着去玩一样，一旦把美团密码发给她之后就是这样，气死了。', '2014-11-18 17:14:30', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('204', '匿名用户', '0', 'https://www.dpfile.com/ugc/user/anonymous.png', '团给十岁的孩子玩的，可能是孩子小只是漂在水上，没有潜下水去，这钱白花了。', '2014-11-17 20:29:09', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('205', '兔小鱼Smile', '5280071', 'https://img.meituan.net/avatar/67bde5b742c52e85c9c1ef3d49b492ca105157.jpg', '很满意的一次潜水，尤其是13号教练服务态度特别好，值得表扬。', '2014-11-17 02:17:00', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('206', '芈筱3377', '56044019', '', '感觉接待员的服务态度不是很好，不过教练那些都还蛮好的，第一次潜水。', '2014-11-16 19:09:51', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('207', '匿名用户', '0', 'https://www.dpfile.com/ugc/user/anonymous.png', '挺划算的，水质不是很好，教练态度很好，就是感觉照片400挺贵，教练一直推荐。', '2014-11-16 16:01:28', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('208', '匿名用户', '0', 'https://www.dpfile.com/ugc/user/anonymous.png', '潜水很好玩，下到了六七米深，看到了小鱼', '2014-11-16 15:46:30', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('209', '匿名用户', '0', 'https://www.dpfile.com/ugc/user/anonymous.png', '还蛮不错的，教练给了我鱼食。就是去的很晚，教练说早点去海底跟漂亮。', '2014-11-16 15:31:30', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('210', '匿名用户', '0', 'https://www.dpfile.com/ugc/user/anonymous.png', '潜水还是不错的，遇上好的教练会有点耐心，遇上不好的教练，你潜下去又上来，他会好不耐烦，潜水耳朵太疼了！受不了！', '2014-11-16 12:47:09', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('211', 'yongjunlh', '27598285', '', '洗浴没有热水，工作人员服务态度差，一直说快下班了，赶时间，潜水时间基本就10分钟左右，教练拉你下潜快，上浮也快，水质比较差，没什么鱼群和珊瑚，耳朵受不了，回来后耳朵痛还呕吐。', '2014-11-15 12:16:53', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('212', '盗版贩子', '65210926', '', '价格便宜，和我一起潜水得是在沙滩上被骗的一个人300块，潜水的地方水不是很清澈，因为没去过别的地方没法对比，不过还是看的到珊瑚和鱼的，潜水的深度我也不清楚下去就蒙了，不过对于第一次潜水的足够了，让你下去十米你也下不去，下去的时候很紧张，只顾着看珊瑚和喘气了，教练挺好的，会问你的感觉再下水，出来的时候头很晕耳朵会疼，拍照片尽量都要水下的水面的看不出啥不好看，总体可以的', '2014-11-15 11:17:06', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('213', '季末的川', '63290832', 'https://img.meituan.net/avatar/75ec9ec0d6bae46bb7592b45f6da513d34240.jpg', '就下去一会，等了很久。穿的湿的泳衣，冷死了。', '2014-11-15 08:06:58', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('214', '匿名用户', '0', 'https://www.dpfile.com/ugc/user/anonymous.png', '不错，比西岛潜水好，西岛纯属应付人，到这边只要你受的了就能够深！但一般人只能5米左右，耳朵受不了！', '2014-11-15 07:10:23', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('215', '匿名用户', '0', 'https://www.dpfile.com/ugc/user/anonymous.png', '教练不错、很认真、其它都一般、拍的照片很模糊', '2014-11-15 06:52:19', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('216', 'mYY155069904', '62354221', '', '还行，看的挺清楚。就是人太多！', '2014-11-14 22:49:57', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('217', 'ZzX13709111561', '28953606', '', '耳朵太疼了！不要迷信深海潜水，你根本受不了，没人能够在水下待够半小时！这个很划算，千万别买贵的，除非他们对耳朵有保护！', '2014-11-14 22:17:28', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('218', 'rvd18824670377', '44823833', '', '还不错，教练人很好，很有耐心，刚开始有点小紧张，很可惜的是不能情侣一起合影', '2014-11-14 20:06:51', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('219', '心如古剑', '57737633', 'https://img.meituan.net/avatar/8f39190f46c66dded45d75455f82dceb266372.jpg', '太一般了！大东海潜水与分界州，蜈支州，根本不是一个级别！而且浓见度不好k', '2014-11-14 10:10:31', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('220', '匿名用户', '0', 'https://www.dpfile.com/ugc/user/anonymous.png', '刚下水的时候好害怕…后来适应了一会儿，感觉还不错…下水不是很深，可能就一两米，再深可能耳朵会比较难受…不过确实是一次很不错的体验！', '2014-11-14 09:09:49', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('221', '匿名用户', '0', 'https://www.dpfile.com/ugc/user/anonymous.png', '还不错，价格便宜好多。潜水到六米耳朵就受不了啦', '2014-11-12 23:39:49', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('222', '一刹间', '68487843', '', '还不错啊，满意的。拍了照，看见小鱼～带我潜水的人是8号，推荐一下吧～', '2014-10-30 22:02:52', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('223', '匿名用户', '0', 'https://www.dpfile.com/ugc/user/anonymous.png', '潜水很实惠，海底很漂亮，大东海交通很方便，值得参加。', '2014-10-26 18:16:09', '-1927084869:http://p0.meituan.net/shaitu/e3e7e42207b6dfdcb0810fdfad67cc8c65537.jpg;\n-1927623046:http://p1.meituan.net/shaitu/6d49c8bf133637cd03857a6e6ef1c82665823.jpg;\n', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('224', '匿名用户', '0', 'https://www.dpfile.com/ugc/user/anonymous.png', '教练不错，性价比高，就是能见度和蜈支洲没法比', '2014-10-11 17:04:59', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('225', '匿名用户', '0', 'https://www.dpfile.com/ugc/user/anonymous.png', '比外面报价便宜好多，很划算！不过珊瑚不多，都是礁石', '2014-10-11 13:08:28', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('226', 'uaU918459773', '115066932', '', '要定的朋友千万注意！！千万别去大东海的店面问了价格才定！这样是不能当天潜的，就是这点让我很不爽！店面的价格是480，不信的朋友可以先去问。但是你要做好准备第二天才能潜。08年时潜过一次，明显不如当年的好。很多人说去亚龙湾才好。个人感觉应该差别不是很大吧，毕竟三亚哪里都被破坏得差不多了。第二次潜，没啥感觉了。没潜过的试一下吧。亚龙湾的水看起来是比大东海漂亮，价格也没差多少，不超过100', '2014-10-06 23:49:42', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('227', '匿名用户', '0', 'https://www.dpfile.com/ugc/user/anonymous.png', '真心不知道有什么好玩的！耳朵太疼了！真是，不玩遗憾，玩了后悔啊！', '2014-09-23 00:03:38', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('228', 'BLg929592362', '78200410', '', '很不值得，不要去，虽说不存在什么欺骗，但是一点不值得，没有景色看，去过的都后悔', '2014-09-14 14:52:57', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('229', '匿名用户', '0', 'https://www.dpfile.com/ugc/user/anonymous.png', '教练很好，很正规，就是预约时要提供团购消费密码，起初还怕被骗，不过想潜水还是去亚龙湾比较好…', '2014-08-21 12:45:16', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('230', '匿名用户', '0', 'https://www.dpfile.com/ugc/user/anonymous.png', '阿妹认真负责，20元的咬嘴要必买，咬别人的不爽，照相200元是潜水教练推的，可以支持，初次潜不太下，呼吸不好，待下次再来', '2014-07-31 23:09:03', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('231', '匿名用户', '0', 'https://www.dpfile.com/ugc/user/anonymous.png', '一家三口去玩的！还不错！女儿很高兴！27号师傅点赞！', '2014-07-29 23:15:07', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('232', '匿名用户', '0', 'https://www.dpfile.com/ugc/user/anonymous.png', '时间很短，前十分钟能看到游来游去的小鱼，后段时间什么也看不到了，在往下耳朵疼，习惯性好评', '2014-07-10 10:21:29', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('233', 'aa82622666', '1779885', 'https://img.meituan.net/avatar/17b876b6e4060e20ca1de15feb7e613c94761.jpg', '都联系好了去了之后服务员说浪大不能潜水！我票都买了！还说如果我们跟别人说了我们是团购的.差价就要就要补清！服务态度极其恶劣！不过想想100多潜个水也就算了！毕竟我们也是外地人！', '2014-06-27 16:25:06', '-1934724668:http://p1.meituan.net/shaitu/__46859090__1826906.jpg;\n-1934913055:http://p0.meituan.net/shaitu/__46859083__7405049.jpg;\n-1935500246:http://p0.meituan.net/shaitu/__46859102__5412693.jpg;\n', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('234', 'cpc4132744419010', '23853788', '', '第一次订了，被海南人忽悠，然后退了，这次很好，团购实惠', '2014-06-07 16:31:20', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('235', '匿名用户', '0', 'https://www.dpfile.com/ugc/user/anonymous.png', '价位相比较之下是便宜，但是服务和设施太一般了', '2014-06-05 22:54:12', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('236', 'Emz641352318', '89096461', '', '可以可以……不过不要吃太多了～下去会肚子疼～我都吐了～还好啦～很激动～吃的太多～就这点不好～还有就是水底有点脏……总得还是不错的！第一次去～好怕怕恩', '2014-06-05 15:17:37', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('237', 'sisichueng', '55820204', 'https://img.meituan.net/avatar/b1838e29e129541c34ac3fb39c7c28cb40863.jpg', '照片太贵！一个人200 两个人要400！', '2014-06-04 09:45:48', '-2053215174:http://p1.meituan.net/shaitu/__44847936__3122402.jpg;\n-2053087313:http://p0.meituan.net/shaitu/__44847927__8169250.jpg;\n-2052980427:http://p1.meituan.net/shaitu/__44847916__2848880.jpg;\n', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('238', 'sisichueng', '55820204', 'https://img.meituan.net/avatar/b1838e29e129541c34ac3fb39c7c28cb40863.jpg', '一对一教练，教练挺好的，很幽默很耐心，半个小时已经足够了，下得深耳朵有压力耳朵很痛，就是拍照200一个人 太贵了！', '2014-06-04 09:44:39', '-2034321761:http://p1.meituan.net/shaitu/__44847781__2972501.jpg;\n-2034401546:http://p0.meituan.net/shaitu/__44847791__6091767.jpg;\n-2034321729:http://p1.meituan.net/shaitu/__44847803__7667441.jpg;\n', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('239', '俊OTAKU皓', '16669334', 'https://img.meituan.net/avatar/11793533b34443fe2f82870dcfdb08e254252.jpg', '19号教练还是不错的，水有点混，能见度较低，但价格实惠，潜水练手的话不错！下水一般2-3M就开始要耳朵疼，推荐用捏鼻子呼气那方法，每吸一口都做10S左右该动作，效果较好！PS我就是这样第一次潜水就到9M的哦！', '2014-06-01 10:59:54', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('240', '匿名用户', '0', 'https://www.dpfile.com/ugc/user/anonymous.png', '水比较浑浊…真的比不上蜈支洲岛和亚龙湾的清…价钱原本以为很实惠…原来去了亚龙湾之后才知道当地去了还可以讲价…人家才200潜水而且还特别清…真心不能相信团购', '2014-05-30 23:38:25', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('241', '匿名用户', '0', 'https://www.dpfile.com/ugc/user/anonymous.png', '前台服務不到位像欠他錢一樣，教練很有耐心給個讚。', '2014-05-29 09:45:22', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('242', '匿名用户', '0', 'https://www.dpfile.com/ugc/user/anonymous.png', '潜水很有趣，第一次潜水潜了超过10米。教练幽默风趣，时刻保证着学员的生命安全，海下景色美不胜收，也有摄影师拍照。但是，改项目的店面服务态度超差！而且，换咬嘴、照片都挺坑人的，保险柜寄存也很贵。但是这个价格和原价400多的相比要便宜很多了，总体来说还是较为满意的。', '2014-05-22 21:20:01', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('243', '纯shan', '47284806', '', '很刺激，就是不敢下太深，教练很有耐心！', '2014-05-22 17:26:58', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('244', '匿名用户', '0', 'https://www.dpfile.com/ugc/user/anonymous.png', '被骗了！名字一样！价格却相差50块！水又不是很清。。。', '2014-05-05 19:37:30', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('245', '匿名用户', '0', 'https://www.dpfile.com/ugc/user/anonymous.png', '感觉挺好的。第一次潜水。很刺激。教练服务的很周到。只是感觉水有点浑。不过整体还是不错的。', '2014-04-29 08:32:59', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('246', '小wew', '3815056', '', '大东海的水质太差了，水底很浑浊！因为时间原因，没有去蜈支洲岛，不过这边的还是蛮划算的！服务很到位，29号教练特别好，又细心有耐心的教我！总体来说很好！', '2014-04-26 07:51:57', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('247', 'gaoxiaoli881027', '50309697', '', '隐形消费。照片二个人360元。黑呀。', '2014-04-22 11:37:43', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('248', 'gaoxiaoli881027', '50309697', '', '哎。含有隐形消费。照片二个人360元。黑呀。', '2014-04-22 11:36:44', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('249', '匿名用户', '0', 'https://www.dpfile.com/ugc/user/anonymous.png', '教练一开始就拼命地推荐你拍照，要两百块一位，我不拍，态度就没那么好了。不过这样的价钱能潜水一次也值了。下潜了十几米，看到六七种小鱼。', '2014-04-13 09:03:28', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('250', '匿名用户', '0', 'https://www.dpfile.com/ugc/user/anonymous.png', '还行，就是照相太贵啦，12张相片400，还是最低消费。', '2014-04-12 09:20:59', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('251', '紫色蒲公英m', '52659960', 'https://img.meituan.net/avatar/cbb985c436a2abf420f26132da6b2f7533682.jpg', '下到海底，是一个越南人带我下去的，服务很好', '2014-04-11 22:07:35', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('252', '匿名用户', '0', 'https://www.dpfile.com/ugc/user/anonymous.png', '教练很好，前台服务员也不错。但中间环节另几位态度有点生硬', '2014-04-10 02:13:55', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('253', '小鸡乖啦', '61830136', '', '一般，水不清，时间不够 30分钟。', '2014-04-09 22:59:36', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('254', 'E神cheng', '52478708', 'https://img.meituan.net/avatar/dc4636dbae43d43c57fde1e04929a9ad331474.jpg', '的确很好，特别是9号教练，实在太好了，就是旅行社态度太烂了，还好潜水潜的的确很棒，就算了,划算～', '2014-04-09 13:53:45', '-2048045593:http://p1.meituan.net/shaitu/__40024245__1032998.jpg;\n-2048086688:http://p0.meituan.net/shaitu/__40024241__8314078.jpg;\n', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('255', 'qZc13801865231', '41619194', '', '建议大家还是去西岛潜水吧，这里没什么好看的，而且我自己本身也受不了太深，压力太大，我的耳朵受不了', '2014-04-09 11:22:34', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('256', '潘程', '3538710', '', '划算的，貌似那边的人都不知道团购，都是付的原价，就是时间没有那么久，大概就10分钟', '2014-03-31 09:04:59', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('257', '云痴kk', '26117081', 'https://img.meituan.net/avatar/bd2dc4935fa36a035fe0493d058e6ae068232.jpg', '第一次潜水，还是十分刺激的，唯一的不足就是水有点混浊，跟想象的有点差距。必须要先团购把密码告诉电话里那两个人之后才能等到店址。买之前还是有点不放心。', '2014-03-30 17:34:30', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('258', '喜爱食物', '7992156', '', '水脏 海底没啥东西 就珊瑚 雨没有那么漂亮的 不要花钱照相 底下景色不行 照的特别难看 我都后悔要了 还不单照 200元四张', '2014-03-30 07:16:12', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('259', '匿名用户', '0', 'https://www.dpfile.com/ugc/user/anonymous.png', '教练感觉教的像是在应付我们，水相当的混浊。感觉不是很兴尽。', '2014-03-29 22:35:47', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('260', '月香浮云', '41634074', 'https://img.meituan.net/avatar/94b621f0854593f8461310d832b31dd495045.jpg', '重前台 取票 到 换衣服 到潜水 每一部的人 都 很热情 但就是照片 不便宜 200 元 5张 照片 没 潜过水的可以 试一试', '2014-03-27 17:06:12', '-2027347909:http://p1.meituan.net/shaitu/__38912568__5516513.jpg;\n-2027332391:http://p1.meituan.net/shaitu/__38912550__1470129.jpg;\n', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('261', '伍柯ko', '68839707', '', '美团客服态度不好。百乐园工作人员服务很好。潜水教练很搞笑。玩的挺开心。今天天气也很给力。', '2014-03-27 14:05:57', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('262', 'zhxj199', '17016545', '', '都没教手势，潜下不到3米，太***了', '2014-03-27 10:57:58', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('263', 'niuniu029', '7373343', '', '给我爸团购的。老爸潜完后反映还不错。就是地方太难找了，打了数个电话，走了不少的冤枉路才找到。', '2014-03-27 00:06:34', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('264', '匿名用户', '0', 'https://www.dpfile.com/ugc/user/anonymous.png', '团购很给力，在去大东海的路上用手机直接团，就可以预约了。水下很漂亮，服务很好，推荐4号教练，有耐心。大家可以放心团购，没有传说中的三亚宰客现象。', '2014-03-26 02:08:01', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('265', '568961851mei', '15762056', '', '总体还是不错了，教练也很耐心～', '2014-03-23 20:24:29', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('266', 'KEw517780946', '77836403', '', '出海距离不是很远，水下还是可以看见鱼滴。我潜水的深度大概有5米吧，耳朵受不了。教练还好，一次不错的体验。', '2014-03-22 00:53:13', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('267', 'ketty咪咪', '39513915', '', '前台那女的态度太差了 跟别人欠她钱一样 经理态度很好 我去了前台后 报名字 她说没有我的名字 让我给预约的票务处打电话 我打了电话 票务处说昨晚就发过去了 让前台接电话 我给前台 那女的竟然说“我不跟她说 你让她重发一遍”我就跟电话那头的票务处说那你再发一遍吧 我等了一会 前台也没反应 始终在那玩手机 我又给票务处打电话 她说给经理发了短信了 我让前台去看看短信 她说没到呢 你都没看你咋知道没到呢 我说怎么可能没到呢 她说我怎么知道 也不是我的电话 真是气死人了 多亏经理来了 要不真的气得发飙 潜水教练很好 很有耐心也不会一个劲的推销照相 而且我潜到了十米 还捡到了海螺 教练说我厉害呢 哈哈 所以除了前台 其他都挺好哦~~~~', '2014-03-20 16:13:39', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('268', '匿名用户', '0', 'https://www.dpfile.com/ugc/user/anonymous.png', '大东海的水不是很干净啊，团购的，过去体验下吧', '2014-03-20 15:55:10', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('269', '匿名用户', '0', 'https://www.dpfile.com/ugc/user/anonymous.png', '还是很不错的，两个朋友去玩，不敢下太深', '2014-03-18 17:21:20', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('270', '匿名用户', '0', 'https://www.dpfile.com/ugc/user/anonymous.png', '设施还好吧，但是教练人很好啊！海水环境不是很清，总有黄色漂浮物？？？也还值这个价钱', '2014-03-17 08:51:43', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('271', '一般人儿不一般', '14846670', 'https://img.meituan.net/avatar/ff7250c1cd73cc46cf0fc77c045122a132948.jpg', '我非常满意，海底太美了，小鱼就从身边游过，导游很负责，各个需求都满足了。地点很全面。值得一团', '2014-03-16 19:00:49', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('272', '匿名用户', '0', 'https://www.dpfile.com/ugc/user/anonymous.png', '说句实话还是挺好玩的，钓鱼是不大可能了那个海域休息，并不是风平浪静，但是单纯到做笔录出去玩看看海景也就是这样了。', '2014-03-16 13:01:52', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('273', 'wtreew', '29892532', '', '一般，水不是很清，第一次潜有点不适应，我就想潜浅一点，多潜几分钟，教练使劲往下按，潜了六米，感觉耳朵要爆了，马上就上来了，不敢潜了，当然可能教练也不是故意的！', '2014-03-15 10:24:19', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('274', '匿名用户', '0', 'https://www.dpfile.com/ugc/user/anonymous.png', '建议大家都找9号教练啊，对我这种胆小多事儿的旱鸭子都特别耐心有木有~', '2014-03-13 17:26:54', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('275', '匿名用户', '0', 'https://www.dpfile.com/ugc/user/anonymous.png', '女性特别小心潜水教练哦，真JB色，和恶心。', '2014-03-12 01:16:21', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('276', 'S莎妮娲', '67122421', 'https://img.meituan.net/avatar/dd2e813fa0ac423791a20c3548e20c1596637.jpg', '其实还好，环境一般，要潜到8米左右看到的才可以，教练很幽默！', '2014-03-03 16:32:40', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('277', '_qq32h1377846255', '57548800', '', '看到好多珊瑚和小鱼，教练人蛮好的，性价比很高', '2014-03-02 15:08:12', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('278', 'xTg216824512', '71552855', '', '感觉设施很破，根本没培训就让下水了，然后就教了下手势，我们其中一个人刚下水就放弃了也不退钱，说下水了就不能退', '2014-02-26 07:46:28', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('279', 'o维维o', '5704365', 'https://img.meituan.net/avatar/0cb743dd071803fc023e7b0dfd616ec5145329.jpg', '说下这个潜水 潜水教练真是不给力 下去后不可以自己游一直提这你  然后不让你向左向右 然后一直把你往深水带 然后你耳朵疼  他就说我们该回去了  前后没个几分钟 服了就和完成任务一样 这个潜水应该是30分钟的吧！潜水其实 4米左右的水层就挺好 可是到了4米水层 没2分钟 就把人拉上去 然后教练非把人往8米按就是为了让你耳朵受不了 好要求上去 就为了能多接几个人吗 且不说潜水环境不好的问题 这么对付顾客是在太令人发指了 最不开心的一次团购 一共潜过六次水 这是最无奈的一次！', '2014-02-24 14:04:08', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('280', '匿名用户', '0', 'https://www.dpfile.com/ugc/user/anonymous.png', '水清但太浅，鱼少，珊瑚也不美，只有2米深', '2014-02-19 19:26:05', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('281', '啊zln', '12861584', 'https://img.meituan.net/avatar/29dafe9636f0c554c716a3be1db5bff054247.jpg', '等的时间有点久，从出去到回到岸边大概要两个小时，感觉还不错吧。', '2014-02-19 14:51:59', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('282', '匿名用户', '0', 'https://www.dpfile.com/ugc/user/anonymous.png', '主要是比其他地方便宜，基本上是浮潜，适合第一潜水的朋友。教练不错', '2014-02-19 11:41:40', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('283', 'Wolffbaby', '49196277', '', '除了冲凉的地方比较简陋 没有热水之外 都不错 难忘的一次体验', '2014-02-19 10:44:46', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('284', 'IVs383422712', '69644355', 'https://img.meituan.net/avatar/0f478b5e13eee149d5bb492cd1807d1113783.jpg', '总体来说一般般，摩托艇小伙值得表扬，态度很好，很热情，其他不敢恭维', '2014-02-18 23:46:37', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('285', '匿名用户', '0', 'https://www.dpfile.com/ugc/user/anonymous.png', '价格比门店优惠很多。耳朵疼，准备点东西', '2014-02-17 08:23:14', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('286', 'yueyue19810930', '52257940', '', '总体来说很一般，教练很嘴甜，也爱教，就是自己有点小怕，还有一上去就问你要不要拍照，可能拍的就带的稍微再仔细些，不拍的就随意些，我觉得！因为他就几乎让我们浮在水上带上眼镜看水底的生物，没怎么把我们往下带，估计带太下面深潜了，他们也累，每天那么多游客要潜水他们很难做到面面俱到！', '2014-02-14 22:21:50', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('287', '匿名用户', '0', 'https://www.dpfile.com/ugc/user/anonymous.png', '不错，比门口导游领的那家便宜多了', '2014-02-14 15:20:45', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('288', '匿名用户', '0', 'https://www.dpfile.com/ugc/user/anonymous.png', '过年期间人太多了，排队排了好久，连潜水服都是用抢得，这家旅行社比较老了，所以人多吧，潜水服都不太新了。到大东海以后有人举牌子说潜水才160一人。再说潜水吧，试了三次也没下去，只下了5米，建议去三亚玩的去蜈支洲岛再潜水，那的水清。总之是体验过了，一般人下不去的，耳朵巨疼', '2014-02-12 20:30:26', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('289', '匿名用户', '0', 'https://www.dpfile.com/ugc/user/anonymous.png', '潜水体验很差，耳朵痛，受不了，以后再不敢去潜水了', '2014-02-10 20:11:33', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('290', 'mUh230491154', '70852026', '', '大东海的水很脏，不推荐。潜水的话一般性，没什么感觉', '2014-02-07 17:46:25', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('291', '匿名用户', '0', 'https://www.dpfile.com/ugc/user/anonymous.png', '很多人，，玩这个排好久的队，前后都要4个多小时潜下水时间短，没得怎么看，上岸风大，有点凉。。', '2014-02-07 08:44:24', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('292', '匿名用户', '0', 'https://www.dpfile.com/ugc/user/anonymous.png', '好啊教练态度超级好啊，照片好啊，摄像师态度超级好啊。', '2014-02-06 17:46:19', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('293', '匿名用户', '0', 'https://www.dpfile.com/ugc/user/anonymous.png', '教练真心不错，是个很负责的人，虽然潜的不深，总体还是很不错的。', '2014-02-06 16:25:02', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('294', 'lbbai926', '69832557', '', '一般般，有的地方要现金，用不了', '2014-01-28 21:05:23', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('295', 'Mr.kiwi.hu', '40026233', 'https://img.meituan.net/avatar/623c17e1d52a34c75149a5183a9c4979107056.jpg', '还是不错的拍照180五张，挺好的。就是潜到八米耳朵有点痛了，要休息休息了', '2014-01-27 22:23:15', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('296', '匿名用户', '0', 'https://www.dpfile.com/ugc/user/anonymous.png', '验证完了大姨妈来了啊啊啊啊啊啊', '2014-01-27 11:17:16', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('297', 'SOP751666277', '66784696', '', '刚开始打电话问详细地址很不耐烦回答后来直接不接了，后来又打另一个号码服务态度很好很有耐心，其它都还比较满意潜水也很开心、海上工作人员都很热情。', '2014-01-26 00:28:20', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('298', '幽谷奇缘', '50660936', '', '可能是海水的原因，水下的景色没想象的好，非常一般，还有一次性咬嘴的收费太高要30元贵了点。潜水时因为水的压力，在下潜到一定深度的时候会觉得耳朵等空腔有疼痛感，做了平衡压力，即无疼痛感。整体感觉一般吧，不过价格本来也不高。', '2014-01-24 14:26:30', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('299', '_qqft21334738552', '23836445', '', '从来不写差评的 被逼的。***垃圾，这就是宰人，服务的态度太差了，照片不能拍一张 必须拍一套，还不能合影，教练不给你说做耳朵平衡压力， 一下水耳朵就疼。他们只为赚钱，照片和潜水的地方完全不一样', '2014-01-21 04:20:29', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('300', 'EkG538314074', '62411754', '', '没有很好的沟通，一头雾水地就到海里了，教练还不错，就是说话有点听不懂，最后还是没有潜下去，感觉呼吸不畅。建议去的朋友，还是做好心里准备再去哦', '2014-01-12 14:04:27', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('301', 'Shirly婷', '69684660', 'https://img.meituan.net/avatar/7356b62b2b90873b0bc1a09a12ac86e2126875.jpg', '一次性呼吸嘴20元 自己设密码柜子存东西20元 押金100元 只能打开一次 所以贵重东西要一次性存好 潜水感觉还不错 去之前最好带泳衣 隐形眼镜不要带 会比较伤眼 教练那边都有带度数的眼罩 呃…天阴谨慎下水 真的会好冷好冷！！ 然后自己整个人的状态就不是很好 教练会在水上拖着你飘好远再让你下潜 一来一回的拖 时间会很久 感觉没潜什么就回去了 冲澡地方的只有凉水！！所以最好带个毛巾不然不好换衣服', '2014-01-08 22:50:42', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('302', '匿名用户', '0', 'https://www.dpfile.com/ugc/user/anonymous.png', '教练人很好，又幽默，一次很愉快的体验！如果还有机会来三亚旅游还想去一次远海潜水！亲眼看看和摸摸珊瑚礁和小鱼才有来海南的感觉嘛！', '2014-01-05 12:22:37', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('303', '匿名用户', '0', 'https://www.dpfile.com/ugc/user/anonymous.png', '价格不错，服务也很周到，教练很棒，就是照片不能给电子版有点难言', '2013-12-30 14:53:25', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('304', '宝贝卟哭263', '46684052', 'https://img.meituan.net/avatar/__29067949__9611230.jpg', '超级满意，教练特别给力，下次还来！！！', '2013-12-13 11:10:18', '', 'None');
+INSERT INTO `meituan_dadonghai` VALUES ('305', '匿名用户', '0', 'https://www.dpfile.com/ugc/user/anonymous.png', '三个人最起码要买5张，不然根本吃不到什么东西。', '2013-12-06 19:37:33', '', 'None');
